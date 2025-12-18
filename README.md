@@ -29,16 +29,6 @@ npm install
 copy .env.example .env
 ```
 
-2. Cấu hình database trong file `.env`:
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=quanlyhopdong
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
 3. Tạo database trong MySQL:
 ```sql
 CREATE DATABASE quanlyhopdong CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
